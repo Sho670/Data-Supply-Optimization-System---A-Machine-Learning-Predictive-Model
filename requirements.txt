@@ -1,0 +1,14 @@
+# Python Libraries
+
+1. Plotly
+
+2. Numpy
+
+3. Pandas
+
+# Machine Learning Libraries
+
+1. Scikit-Learn
+
+2. PyTorch
+
