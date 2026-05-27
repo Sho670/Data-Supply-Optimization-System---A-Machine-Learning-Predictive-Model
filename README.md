@@ -10,7 +10,6 @@ Modern supply chains generate massive amounts of operational data including inve
 This project addresses these challenges by using:
 
 - Machine Learning for demand forecasting
-- Deep Learning for time-series prediction
 - Optimization algorithms for inventory planning
 - Real-time analytics dashboards for monitoring
 
@@ -28,13 +27,9 @@ The system enables organizations to make data-driven decisions that improve effi
 
 ## Inventory Optimization
 - Calculate optimal inventory levels
-- Minimize stock shortages and excess inventory
+- Formulate stock shortages inventory
 - Improve warehouse utilization
 
-## Supplier Performance Analysis
-- Evaluate supplier reliability
-- Predict delivery delays
-- Identify high-risk suppliers
 
 ## Real-Time Data Processing
 - Process live inventory and supply data
@@ -47,11 +42,8 @@ The system enables organizations to make data-driven decisions that improve effi
 ## Analytics Dashboard
 - Visualize inventory trends
 - Display forecasts and optimization reports
-- Monitor operational KPIs
 
-## REST API Support
-- Expose prediction services using Flask/FastAPI
-- Enable third-party system integration
+
 
 ---
 
@@ -82,7 +74,7 @@ The system enables organizations to make data-driven decisions that improve effi
                 | Prediction Engine    |
                 |----------------------|
                 | Scikit-Learn Models  |
-                | PyTorch LSTM Models  |
+                | PyTorch  Models      |
                 +----------+-----------+
                            |
                            v
@@ -96,7 +88,7 @@ The system enables organizations to make data-driven decisions that improve effi
                            |
                            v
                 +----------------------+
-                | Dashboard & APIs     |
+                |      Dashboard       |
                 +----------------------+
 ```
 
@@ -119,18 +111,11 @@ The system enables organizations to make data-driven decisions that improve effi
 - Seaborn
 - Plotly
 
-## Backend Framework
-- Flask / FastAPI
-
 ## Database
-- PostgreSQL / MySQL
-
-## Deployment
-- Docker
-- Kubernetes (Optional)
+- Batch Processing
 
 ## Dashboard
-- Streamlit / React
+- Streamlit 
 
 ---
 
@@ -169,7 +154,7 @@ Models used:
 - Linear Regression
 - Random Forest
 - Gradient Boosting
-- LSTM Neural Networks
+
 
 ## 5. Prediction
 The trained model predicts:
@@ -195,7 +180,6 @@ The optimization module determines:
 
 Libraries used:
 - SciPy
-- PuLP
 - OR-Tools
 
 
@@ -208,8 +192,8 @@ Libraries used:
 The project evaluates forecasting accuracy using:
 
 - Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score
+- Standard Deviation
+- Demand Standard Deviation
 
 These metrics help measure:
 - Forecast reliability
@@ -254,12 +238,11 @@ This system can be applied in:
 # Future Enhancements
 
 - Real-time streaming with Apache Kafka
-- Explainable AI using SHAP
 - Transformer-based forecasting models
 - Cloud deployment on AWS/Azure/GCP
 - Automated retraining pipeline
 - Reinforcement learning optimization
-- IoT sensor integration
+
 
 ---
 
@@ -301,7 +284,7 @@ This project also serves as an excellent end-to-end implementation of:
 
 
 
-💡 Why This Project Matters This project demonstrates how modern data tools can transform raw datasets into valuable insights — a crucial skill in today’s data-driven world.
+💡 Why This Project Matters? This project demonstrates how modern data tools can transform raw datasets into valuable insights — a crucial skill in today’s data-driven world.
 
 ⭐ Show Your Support If you found this project helpful:
 
