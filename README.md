@@ -136,3 +136,67 @@ The system enables organizations to make data-driven decisions that improve effi
 
 
 
+# Machine Learning Pipeline
+
+The system follows a complete machine learning lifecycle pipeline.
+
+## 1. Data Collection
+The project gathers:
+- Historical sales data
+- Product inventory data
+- Warehouse information
+- Supplier delivery logs
+- Demand fluctuations
+
+## 2. Data Preprocessing
+Performed using Pandas and Scikit-learn:
+- Missing value handling
+- Data normalization
+- Label encoding
+- Feature scaling
+- Outlier detection
+
+## 3. Feature Engineering
+Generated features include:
+- Monthly demand trends
+- Seasonal indicators
+- Supplier delay metrics
+- Rolling averages
+- Demand volatility
+
+## 4. Model Training
+Models used:
+- Linear Regression
+- Random Forest
+- Gradient Boosting
+- LSTM Neural Networks
+
+## 5. Prediction
+The trained model predicts:
+- Product demand
+- Reorder points
+- Supply shortages
+- Inventory requirements
+
+---
+
+
+# Optimization Engine
+
+The optimization module determines:
+- Optimal stock quantities
+- Best supplier selection
+- Cost-efficient inventory strategies
+
+## Optimization Techniques
+- Linear Programming
+- Constraint Optimization
+- Reinforcement Learning (Future Scope)
+
+Libraries used:
+- SciPy
+- PuLP
+- OR-Tools
+
+---
+
