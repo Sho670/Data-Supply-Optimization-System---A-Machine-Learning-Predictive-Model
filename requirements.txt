@@ -11,13 +11,14 @@ Python
 
 3. Pandas
 
+4. Numpy
+
 # Visualization
 
-1. Numpy
 
-2. Plotly
+1. Plotly
 
-3. Seaborn
+2. Seaborn
 
 # Visualization Dashboard
 
