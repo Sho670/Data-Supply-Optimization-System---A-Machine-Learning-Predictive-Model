@@ -2,13 +2,6 @@
 
 Python
 
-# Python Libraries
-
-1. Plotly
-
-2. Numpy
-
-3. Pandas
 
 # Machine Learning Libraries
 
@@ -16,9 +9,17 @@ Python
 
 2. PyTorch
 
-3. Seaborn
+3. Pandas
 
 # Visualization
+
+1. Numpy
+
+2. Plotly
+
+3. Seaborn
+
+# Visualization Dashboard
 
 Streamlit
 
