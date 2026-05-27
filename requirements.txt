@@ -1,3 +1,7 @@
+# Programming Language
+
+Python
+
 # Python Libraries
 
 1. Plotly
@@ -11,4 +15,10 @@
 1. Scikit-Learn
 
 2. PyTorch
+
+3. Seaborn
+
+# Visualization
+
+Streamlit
 
