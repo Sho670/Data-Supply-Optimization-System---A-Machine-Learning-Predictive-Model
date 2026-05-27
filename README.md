@@ -198,5 +198,42 @@ Libraries used:
 - PuLP
 - OR-Tools
 
+
+
+
+---
+
+# Evaluation Metrics
+
+The project evaluates forecasting accuracy using:
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+These metrics help measure:
+- Forecast reliability
+- Prediction stability
+- Optimization effectiveness
+
+---
+
+
+
+# Dashboard
+
+The dashboard provides:
+- Inventory monitoring
+- Forecast visualization
+- Supplier performance analysis
+- KPI tracking
+- Real-time alerts
+
+Dashboard features:
+- Interactive charts
+- Prediction summaries
+- Inventory heatmaps
+- Forecast comparison graphs
+
 ---
 
