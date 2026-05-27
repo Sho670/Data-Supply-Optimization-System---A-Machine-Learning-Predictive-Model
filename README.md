@@ -54,3 +54,85 @@ The system enables organizations to make data-driven decisions that improve effi
 - Enable third-party system integration
 
 ---
+
+
+# System Architecture
+
+```text
+                +----------------------+
+                |   Raw Data Sources   |
+                |----------------------|
+                | Sales Data           |
+                | Inventory Data       |
+                | Supplier Records     |
+                | Logistics Data       |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Data Preprocessing   |
+                |----------------------|
+                | Cleaning             |
+                | Feature Engineering  |
+                | Normalization        |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Prediction Engine    |
+                |----------------------|
+                | Scikit-Learn Models  |
+                | PyTorch LSTM Models  |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Optimization Engine  |
+                |----------------------|
+                | Inventory Planning   |
+                | Resource Allocation  |
+                | Supplier Selection   |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Dashboard & APIs     |
+                +----------------------+
+```
+
+
+---
+
+# Tech Stack
+
+## Programming Language
+- Python 3.10+
+
+## Machine Learning Libraries
+- Scikit-learn
+- PyTorch
+- NumPy
+- Pandas
+
+## Visualization
+- Matplotlib
+- Seaborn
+- Plotly
+
+## Backend Framework
+- Flask / FastAPI
+
+## Database
+- PostgreSQL / MySQL
+
+## Deployment
+- Docker
+- Kubernetes (Optional)
+
+## Dashboard
+- Streamlit / React
+
+---
+
+
+
