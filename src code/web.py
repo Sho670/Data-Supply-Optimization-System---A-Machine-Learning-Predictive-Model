@@ -146,9 +146,9 @@ if uploaded_file is not None:
 
 
 # -------------------------
-# 📊 Product Comparison Chart
+# Product Comparison Chart
 # -------------------------
-    st.markdown("### 📊 Product Comparison")
+    st.markdown("### Product Comparison")
 
     fig = go.Figure()
 
@@ -175,9 +175,9 @@ if uploaded_file is not None:
 
 
 # -------------------------
-# 📈 Demand Trend (Full Width)
+# Demand Trend (Full Width)
 # -------------------------
-    st.markdown("### 📈 Daily Demand Trend")
+    st.markdown("### Daily Demand Trend")
 
     fig1 = px.line(
     df_product,
@@ -199,9 +199,9 @@ if uploaded_file is not None:
 
 
 # -------------------------
-# 📈 Product Life Cycle (Full Width)
+# Product Life Cycle (Full Width)
 # -------------------------
-    st.markdown("### 📈 Product Life Cycle Stages")
+    st.markdown("### Product Life Cycle Stages")
 
     fig2 = go.Figure()
 
