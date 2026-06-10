@@ -33,7 +33,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("📦 Data-Driven Demand Supply Optimization Dashboard")
+st.title("Data-Driven Demand Supply Optimization Dashboard")
 
 # -------------------------
 # Upload CSV
@@ -60,8 +60,8 @@ if uploaded_file is not None:
 # EDA
 # -------------------------
 
-# 📊 Demand Over Time
-    st.subheader("📊 Demand Over Time")
+# Demand Over Time
+    st.subheader("Demand Over Time")
 
     fig = px.line(
     df,
@@ -73,8 +73,8 @@ if uploaded_file is not None:
     st.plotly_chart(fig, use_container_width=True)
 
 
-# 📊 Demand by Day of Week
-    st.subheader("📊 Demand by Week")
+# Demand by Day of Week
+    st.subheader("Demand by Week")
 
     day_df = df.groupby("day_of_week", as_index=False)["demand"].mean()
 
@@ -90,8 +90,8 @@ if uploaded_file is not None:
     st.plotly_chart(fig, use_container_width=True)
 
 
-# 📊 Promotional Impact
-    st.subheader("📊 Promotional Impact")
+# Promotional Impact
+    st.subheader("Promotional Impact")
 
     promo_df = df.groupby("promotion", as_index=False)["demand"].mean()
 
