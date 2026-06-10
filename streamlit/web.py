@@ -387,7 +387,6 @@ if uploaded_file is not None:
     col2.metric("Demand Standard Deviation", round(np.std(y_train), 2))
 
 
-    st.markdown("### 📉 Prediction Accuracy")
     st.subheader("Actual vs Predicted Demand")
 
     fig = go.Figure()
@@ -420,9 +419,9 @@ if uploaded_file is not None:
     st.plotly_chart(fig, use_container_width=True)
 
     # -------------------------
-    # 🔮 Scenario Simulation
+    # Scenario Simulation
     # -------------------------
-    st.markdown("### 🔮 Scenario Simulation (What-if Analysis)")
+    st.markdown("### Scenario Simulation (What-if Analysis)")
 
     # User input
     demand_scenario = st.slider(
@@ -477,13 +476,13 @@ if uploaded_file is not None:
     # -------------------------
     # Agent Output Table
     # -------------------------
-    st.markdown("### 🧠 AI Recommendations for next quater")
+    st.markdown("### Recommendations for next quater")
     st.dataframe(X_test.head(), use_container_width=True)
 
     # -------------------------
-    # 📦 Replenishment Decision
+    # Replenishment Decision
     # -------------------------
-    st.markdown("### 📦 Inventory Replenishment Decision")
+    st.markdown("### Inventory Replenishment Decision")
 
     # Safety buffer (can also be user-controlled later)
     buffer_pct = 0.10  # 10% buffer
@@ -503,7 +502,7 @@ if uploaded_file is not None:
     # Recommendation Chart
     # -------------------------
 
-    st.markdown("### 📦 Inventory Decisions")
+    st.markdown("### Inventory Decisions")
 
     fig = go.Figure()
 
