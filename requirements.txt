@@ -3,22 +3,22 @@
 Python
 
 
-# Machine Learning Libraries
+# Libraries
 
 1. Scikit-Learn
 
-2. PyTorch
-
-3. Pandas
+2. Pandas
 
 4. Numpy
+
+5. Regular Expressions
 
 # Visualization
 
 
 1. Plotly
 
-2. Seaborn
+2. Matplotlib
 
 # Visualization Dashboard
 
