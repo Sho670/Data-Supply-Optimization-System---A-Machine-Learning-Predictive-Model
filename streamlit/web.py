@@ -536,9 +536,9 @@ if uploaded_file is not None:
 
 
     # -------------------------
-    # 📊 Safety Stock Logic
+    # Safety Stock Logic
     # -------------------------
-    st.markdown("### 📊 Safety Stock Recommendation")
+    st.markdown("### Safety Stock Recommendation")
 
     demand_std = np.std(y_train)
     service_level_factor = 1.65  # ~95% service level (z-score)
@@ -579,6 +579,6 @@ if uploaded_file is not None:
 
         costs.append(cost)
 
-    st.markdown("### 💰 Cost Analysis for next quater (in Rupees)")
+    st.markdown("### Cost Analysis for next quater (in Rupees)")
     st.metric("Estimated Average Cost for in Rupees ₹", round(np.mean(costs), 2))
 
