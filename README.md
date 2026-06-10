@@ -36,7 +36,6 @@ The system enables organizations to make data-driven decisions that improve effi
 - Generate instant predictions and alerts
 
 ## Deep Learning Forecasting
-- LSTM-based sequence prediction using PyTorch
 - High accuracy forecasting for time-series datasets
 
 ## Analytics Dashboard
@@ -74,7 +73,6 @@ The system enables organizations to make data-driven decisions that improve effi
                 | Prediction Engine    |
                 |----------------------|
                 | Scikit-Learn Models  |
-                | PyTorch  Models      |
                 +----------+-----------+
                            |
                            v
@@ -88,7 +86,7 @@ The system enables organizations to make data-driven decisions that improve effi
                            |
                            v
                 +----------------------+
-                |      Dashboard       |
+                | Dashboard  Interface |
                 +----------------------+
 ```
 
@@ -98,17 +96,15 @@ The system enables organizations to make data-driven decisions that improve effi
 # Tech Stack
 
 ## Programming Language
-- Python 3.10+
+- Python 3.14
 
-## Machine Learning Libraries
+## Libraries Used
 - Scikit-learn
-- PyTorch
 - NumPy
 - Pandas
 
 ## Visualization
 - Matplotlib
-- Seaborn
 - Plotly
 
 ## Database
@@ -180,7 +176,6 @@ The optimization module determines:
 
 Libraries used:
 - SciPy
-- OR-Tools
 
 
 
